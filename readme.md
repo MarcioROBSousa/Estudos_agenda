@@ -26,9 +26,6 @@ Este é um sistema simples, feito com **HTML, CSS e JavaScript**, que permite re
 
 ---
 
-🖼️ Preview
-
-
 🛠 Tecnologias usadas
 HTML5
 
