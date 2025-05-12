@@ -29,7 +29,7 @@ Este é um sistema simples, feito com **HTML, CSS e JavaScript**, que permite re
 
 
 <p align="center">
-  <img src="img/Ryan Seslow.gif" alt="Game" width="500"/>
+  <img src="img/Ryan Seslow.gif" alt="Game" width="300"/>
 </p>
 
 ---
