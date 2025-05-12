@@ -24,8 +24,6 @@ Este é um sistema simples, feito com **HTML, CSS e JavaScript**, que permite re
   <img src="img/Ryan Seslow.gif" alt="Game" width="300"/>
 </p>
 
----
-
 🛠 Tecnologias usadas
 HTML5
 
