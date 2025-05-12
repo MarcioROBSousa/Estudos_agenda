@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda de Estudos</title>
+  <link rel="icon" href="Img/COrpo.ico" type="image/ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="topo">
+    <div id="image">
+        <img src="img/Aprender.png" alt="company" class="estudo">
+        <img src="img/desenho.png" alt="company" class="estudo">
+        <img src="img/estudar.png" alt="company" class="estudo">
+    </div>
+</header>
+
+  <div class="container">
+
+  <h1>Agenda de estudos 📖 </h1>
+
+  <form id="dataForm">
+    <label> Nome aluno 🤓</label>
+    <input type="text" id="nomeAluno" />
+
+    <label>Tipo de estudo✍</label>
+    <input type="text" id="tipoEstudo" />
+
+    <label>Horas estudo⏳</label>
+    <input type="number" id="horasEstudo" />
+
+    <label>Data estudo🗓</label>
+    <input type="date" id="dataEstudo" />
+
+    <label>Nome da matéria📚 </label>
+    <input type="text" id="materiaEstudo" />
+
+    <label>Período/Semestre 🚴</label>
+    <input type="text" id="periodoEstudo" />
+
+    <div class="button-group">
+      <button type="submit">Salvar</button>
+      <a href="ava.html" id="paginaAva">Estudos</a>
+      <button type="button" id="limparTudo">Limpar Tudo</button>
+    </div>
+    </form>
+
+  
+<p id="mensagemSimples"></p>
+
+  <div id="resultContainer"></div>
+
+  <!-- Script externo -->            
+  <script src="script.js"></script>
+</div>
+
+</body>
+<footer>
+  <p>&copy; 2025 Agenda de Estudos. Todos os direitos reservados.</p>
+</footer>

@@ -1,0 +1,90 @@
+
+* {
+    margin: 2%;
+    padding: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+body {
+    text-align: center;
+    background-color:white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:midnightblue;
+}
+
+#dataForm input {
+    display: flex; /*Faz o elemento se comportar como um container flexível,
+    permitindo alinhar e distribuir elementos filhos.*/
+    flex-direction: column; /*Define que os elemntos filhos sejam organizados
+    em colunas de cima para baixo*/
+    gap: 10px; /* Cria um espaço em px entre os elentos filhos do container flexível*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    width: 100%; /* Aumenta as larguras dos campos*/
+    max-width: 400px;
+    height: 35px; /*deixa eles mais altos*/
+    font-size: 16px; /*Aumenta o texto pra ficar mais fácil de ler*/
+    border: 1px solid #ccc;
+    border-radius: 5px; /*Arredonda a borda*/
+    padding: 5px; /*Espaço interno para o texto não grudar na borda*/
+}
+form#dataForm {
+    width: 90%;
+    max-width: 500px;
+}
+button,
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00BFFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+  /* Efeito hover (passar o mouse) */
+button:hover,
+a:hover {
+    background-color: #00CED1;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+#resultContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    color:crimson;
+}
+header#topo {
+    width: 100%;
+    background-color: aliceblue;          
+  }
+  
+  #image {
+    display: flex;
+    justify-content:center; /* distribui as imagens igualmente */
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;    /* centraliza o conteúdo no centro da tela */
+  }
+  
+  .estudo {
+    width: 500px;  /* ou outro valor proporcional */
+    height: auto;
+  }
+
+  

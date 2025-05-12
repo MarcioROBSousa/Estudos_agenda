@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo do corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: linear-gradient(to right, #e0f7fa, #e1bee7);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Estilo padrão (modo claro) */
+.container {
+  background-color: #fff;
+  color: #333;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Estilo para o modo escuro */
+body.dark-mode .container {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+/* Mensagem no modo claro */
+#mensagemSimples {
+  margin-top: 30px;
+  font-size: 25px;
+  font-style: italic;
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Mensagem no modo escuro */
+body.dark-mode #mensagemSimples {
+  background-color: #2e7d32;
+  color: #e8f5e9;
+}
+/*Títulos*/
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #4a148c;
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #6a1b9a;
+}
+/* Botão de mensagem */
+#message {
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+#message:hover {
+    background-color: #00CED1;
+  }
+  /*Link voltar*/
+  .anterior {
+    color: #00BFFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .anterior:hover {
+    text-decoration: underline;
+  }
+    body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  /* Ícone de alternância */
+  .icon-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none;
+    transition: transform 0.3s ease;
+  }  
+  .icon-toggle:active {
+    transform: rotate(20deg);
+  }
